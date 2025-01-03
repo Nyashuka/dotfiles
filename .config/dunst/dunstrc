@@ -1,0 +1,5 @@
+[global]
+geometry = 300x50-10+10    # ширина, висота, відстань від країв екрану
+font = Monospace 10
+alignment = center
+timeout = 5
