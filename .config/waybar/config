@@ -1,0 +1,13 @@
+
+{
+	"height": 24,
+	"hyprland/workspaces": {
+		"persistent-workspaces": {
+			"*": 5, // 5 workspaces by default on every monitor
+		}
+	},
+	"modules-left": ["hyprland/workspaces", "hyprland/mode", "hyprland/scratchpad", "custom/media"],
+    	"modules-center": ["hyprland/window"],
+	"modules-right": ["mpd", "idle_inhibitor", "temperature", "cpu", "memory","network", "pulseaudio", "backlight", "keyboard-state", "battery", "battery#bat2", "tray", "clock"],
+}
+

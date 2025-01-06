@@ -1,6 +1,3 @@
-export XDG_CURRENT_DESKTOP=KDE
-export XDG_SESSION_TYPE=x11
-
 export GDK_SCALE=1
 export GDK_DPI_SCALE=1
 
@@ -11,7 +8,10 @@ export GDK_DPI_SCALE=1
 feh --bg-scale /home/eva/configurations/desktop/desktop.jpg &
 picom &
 
-exec dunst &
+#exec dunst &
 
-dwmstatus 2>&1 >/dev/null &
-exec dwm
+#dwmstatus 2>&1 >/dev/null &
+
+#exec dwm
+
+startplasma-x11
