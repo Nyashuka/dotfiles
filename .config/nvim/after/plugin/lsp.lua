@@ -7,8 +7,10 @@ require('mason-lspconfig').setup({
     },
     handlers = {
         function(server_name)
-            require('lspconfig')[server_name].setup({})
-
+            local capabilities = require('cmp_nvim_lsp').default_capabilities()
+            require('lspconfig')[server_name].setup({
+                capabilities = capabilities
+            })
             vim.keymap.set({ "n" }, "<leader>ca", vim.lsp.buf.code_action, {})
         end,
     },
