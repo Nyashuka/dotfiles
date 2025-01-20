@@ -1,3 +1,4 @@
+
 export GDK_SCALE=1
 export GDK_DPI_SCALE=1
 
@@ -9,6 +10,7 @@ export GDK_DPI_SCALE=1
 # set background image
 feh --bg-scale /home/eva/configurations/desktop/desktop.jpg &
 
+#/usr/bin/prime-offload &
 # apps to start
 picom &
 exec dunst &
